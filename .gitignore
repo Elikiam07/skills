@@ -37,8 +37,10 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 package-lock.json
 .codebuddy/
 .agent/
-.agents/
-.claude/
+.agents/*
+!.agents/skills/
+.claude/*
+!.claude/skills/
 .cursor/
 .gemini/
 .github/skills/
